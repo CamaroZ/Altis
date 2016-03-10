@@ -2844,6 +2844,10 @@
       <Portuguese>%1 se recusou a pagar a multa.</Portuguese>
       <Polish>%1 odmówił zapłaty mandatu.</Polish>
     </Key>
+    <Key ID="STR_removeweapons">
+      <Original>REMOVE WEAPONS</Original>
+      <Portuguese>REMOVER ARMAS</Portuguese>
+    </Key>
     <Key ID="STR_Cop_BountyRecieve">
       <Original>You have collected a bounty of $%1 for arresting a criminal.</Original>
       <German>Du hast ein Kopfgeld von $%1 für die Festnahme eines Kriminellen bekommen.</German>
