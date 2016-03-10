@@ -1,0 +1,13 @@
+/*
+    File: fn_seizePlayerWeaponAction.sqf
+    Author: Skalicon
+    Edited: CamaroZ
+    Description:
+    Removes the players weapons client side
+*/
+removeAllWeapons player; // Remove All Weapons of Player
+
+[] call life_fnc_saveGear;
+[] call SOCK_fnc_updateRequest;
+
+titleText["Weapons were seized.","PLAIN"];
