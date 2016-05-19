@@ -19,6 +19,12 @@ closeDialog 0;
 _houseCfg = [(typeOf _house)] call life_fnc_houseConfig;
 if (count _houseCfg isEqualTo 0) exitWith {};
 
+if( player getVariable "sellinghouse"== 1) exitWith{closeDialog 0;};
+
+if (player getVariable "sellinghouse"== 1) exitWith {hint "Você deve aguardar alguns segundos até abrir essa opção novamente.";};
+
+player setVariable["sellinghouse",1];
+
 _action = [
     format[localize "STR_House_SellHouseMSG",
     (round(SEL(_houseCfg,0)/2)) call life_fnc_numberText,
@@ -77,4 +83,5 @@ if (_action) then {
         } forEach _containers;
     };
     _house setVariable ["containers",nil,true];
+    player setVariable["sellinghouse",0];
 };
