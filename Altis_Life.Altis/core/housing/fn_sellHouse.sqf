@@ -19,11 +19,11 @@ closeDialog 0;
 _houseCfg = [(typeOf _house)] call life_fnc_houseConfig;
 if (count _houseCfg isEqualTo 0) exitWith {};
 
-if( player getVariable "sellinghouse"== 1) exitWith{closeDialog 0;};
+if (player getVariable "selling" == true) exitWith{closeDialog 0;};
 
-if (player getVariable "sellinghouse"== 1) exitWith {hint "Você deve aguardar alguns segundos até abrir essa opção novamente.";};
+if (player getVariable "selling" == true) exitWith {hint "Not fast.";};
 
-player setVariable["sellinghouse",1];
+player setVariable["selling",nil,true];
 
 _action = [
     format[localize "STR_House_SellHouseMSG",
@@ -83,5 +83,5 @@ if (_action) then {
         } forEach _containers;
     };
     _house setVariable ["containers",nil,true];
-    player setVariable["sellinghouse",0];
+    player setVariable["selling",nil,false];
 };
