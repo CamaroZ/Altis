@@ -19,11 +19,9 @@ closeDialog 0;
 _houseCfg = [(typeOf _house)] call life_fnc_houseConfig;
 if (count _houseCfg isEqualTo 0) exitWith {};
 
-if (player getVariable "selling" == true) exitWith{closeDialog 0;};
+if (player getVariable "selling" == true) exitWith {closeDialog 0; hint "Not fast.";}; // Needs to be a string table entry im sure jawshy can do it.
 
-if (player getVariable "selling" == true) exitWith {hint "Not fast.";};
-
-player setVariable["selling",nil,true];
+player setVariable ["selling",nil,true];
 
 _action = [
     format[localize "STR_House_SellHouseMSG",
@@ -83,5 +81,5 @@ if (_action) then {
         } forEach _containers;
     };
     _house setVariable ["containers",nil,true];
-    player setVariable["selling",nil,false];
+    player setVariable ["selling",nil,false];
 };
