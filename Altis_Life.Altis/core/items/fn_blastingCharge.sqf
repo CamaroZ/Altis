@@ -24,4 +24,4 @@ _vault setVariable ["chargeplaced",true,true];
 hint localize "STR_ISTR_Blast_KeepOff";
 
 [] remoteExec ["life_fnc_demoChargeTimer",[west,player]];
-[] remoteExec ["TON_fnc_handleBlastingCharge",2];
+[] remoteExec ["TON_fnc_handleBlastingCharge",RSERV];
