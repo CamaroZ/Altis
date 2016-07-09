@@ -38,7 +38,7 @@ _vehicle spawn {
         if (life_HC_isActive) then {
             [_this] remoteExecCall ["HC_fnc_updateHouseTrunk",HC_Life];
         } else {
-            [_this] remoteExecCall ["TON_fnc_updateHouseTrunk",2];
+            [_this] remoteExecCall ["TON_fnc_updateHouseTrunk",RSERV];
         };
     };
 };
@@ -53,7 +53,7 @@ if (LIFE_SETTINGS(getNumber,"save_vehicle_virtualItems") isEqualTo 1) then {
             if (life_HC_isActive) then {
                 [_this,2] remoteExecCall ["HC_fnc_vehicleUpdate",HC_Life];
             } else {
-                [_this,2] remoteExecCall ["TON_fnc_vehicleUpdate",2];
+                [_this,2] remoteExecCall ["TON_fnc_vehicleUpdate",RSERV];
             };
         };
     };
