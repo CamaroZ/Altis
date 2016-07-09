@@ -36,7 +36,7 @@ if (_value > 0) then {
     BANK = BANK + _value;
     [1] call SOCK_fnc_updatePartial;
     _container setVariable ["Trunk",[[],0],true];
-    [_container] remoteExecCall ["TON_fnc_updateHouseTrunk",2];
+    [_container] remoteExecCall ["TON_fnc_updateHouseTrunk",RSERV];
 } else {
     hint localize "STR_Cop_NoIllegalContainer";
 };
