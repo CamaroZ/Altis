@@ -1,9 +1,9 @@
 /*
-	File: fn_setupEVH.sqf
-	Author:
+    File: fn_setupEVH.sqf
+    Author: Bryan "Tonic" Boardwine
 
-	Description:
-	Master eventhandler file
+    Description:
+    Master eventhandler file
 */
 player addEventHandler["Killed", {_this spawn life_fnc_onPlayerKilled}];
 player addEventHandler["handleDamage",{_this call life_fnc_handleDamage;}];
@@ -12,8 +12,3 @@ player addEventHandler["Take",{_this call life_fnc_onTakeItem}]; //Prevent peopl
 player addEventHandler["Fired",{_this call life_fnc_onFired}];
 player addEventHandler["InventoryClosed", {_this call life_fnc_inventoryClosed}];
 player addEventHandler["InventoryOpened", {_this call life_fnc_inventoryOpened}];
-[] spawn {
-	waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
-	waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
-	player addEventHandler["onPlayerDisconnected", {_this call SOCK_fnc_updateRequest}];
-};

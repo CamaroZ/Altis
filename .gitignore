@@ -11,13 +11,32 @@
 #
 .*
 *~
-*.so
-*.dll
 *.zip
 *.rar
 *.bak
+
+#
+# Windows Files
+#
+*.dll
 *.bat
 *.exe
+Thumbs.db
+
+#
+# Linux Files
+#
+*.so
+*.sh
+.fuse_hidden*
+.Trash-*
+
+#
+# OSX Files
+#
+.DS_Store
+.AppleDouble
+.LSOverride
 
 #
 # Bohemia Packed Files
@@ -26,6 +45,12 @@
 *.xbo
 *.ebo
 *.ifa
+
+#
+# IntelliJ IDEA Files
+#
+.idea/
+*.iml
 
 #
 # git files that we don't want to ignore even it they are dot-files

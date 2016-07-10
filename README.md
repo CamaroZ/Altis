@@ -1,36 +1,51 @@
 <h1 align="center">Altis-Life</h1>
 <p align="center">
-    <a href="https://github.com/ArmaLife/Altis">
+    <a href="https://github.com/ArmaLife/Framework">
         <img src="https://img.shields.io/badge/version-v4.4-green.svg" alt="Altis Life Version">
     </a>
     &nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/ArmaLife/Altis/releases">
-        <img src="https://img.shields.io/badge/release-1-yellowgreen.svg" alt="Altis Life Release">
+    <a href="https://github.com/ArmaLife/Framework/releases">
+        <img src="https://img.shields.io/badge/release-3-yellowgreen.svg" alt="Altis Life Release">
     </a>
     &nbsp;&nbsp;&nbsp;
-    <a href="http://dev.arma3.com/post/spotrep-00052">
-        <img src="https://img.shields.io/badge/arma%203-1.56-orange.svg" alt="Arma 3 Version">
+    <a href="https://dev.arma3.com/post/spotrep-00057">
+        <img src="https://img.shields.io/badge/arma%203-1.60-orange.svg" alt="Arma 3 Version">
+    </a>
+    </br>
+    <a href="https://discordapp.com/invite/0z4k0hcAcvMl2SQx">
+        <img src="https://img.shields.io/badge/chat-on%20discord-738BD7.svg" alt="Join the chat at https://discordapp.com/invite/0z4k0hcAcvMl2SQx">
     </a>
     &nbsp;&nbsp;&nbsp;
-    <a href="https://gitter.im/ArmaLife/Altis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
-        <img src="https://badges.gitter.im/ArmaLife/Altis.svg" alt="Join the chat at https://gitter.im/ArmaLife/Altis">
+    <a href="https://gitter.im/ArmaLife/Framework?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
+        <img src="https://badges.gitter.im/ArmaLife/Framework.svg" alt="Join the chat at https://gitter.im/ArmaLife/Framework">
     </a>
     &nbsp;&nbsp;&nbsp;
-    <a href="https://gitter.im/ArmaLife/Altis/Support?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
-        <img src="https://img.shields.io/badge/support-on%20gitter-blue.svg" alt="Join the support chat at https://gitter.im/ArmaLife/Altis/Support">
+    <a href="https://gitter.im/ArmaLife/Framework/Support?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
+        <img src="https://img.shields.io/badge/support-on%20gitter-blue.svg" alt="Join the support chat at https://gitter.im/ArmaLife/Framework/Support">
+    </a>
+    </br>
+    <a href="https://waffle.io/ArmaLife/Framework">
+        <img src="https://img.shields.io/badge/issues-on%20waffle-red.svg" alt="Stories in Ready">
+    </a>
+    &nbsp;&nbsp;&nbsp;
+    <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en_US">
+        <img src="https://img.shields.io/badge/license-CC%20BY--NC--ND%204.0-yellow.svg" alt="License Type">
+    </a>
+    &nbsp;&nbsp;&nbsp;
+    <a href="https://travis-ci.org/ArmaLife/Framework">
+        <img src="https://api.travis-ci.org/ArmaLife/Framework.svg" alt="Build Status">
     </a>
 </p>
 
-<b>Altis Life</b> or <b>[Altis Life RPG] (http://www.altisliferpg.com)</b> is developed by <b>Tonic</b> AKA <b>[TAW_Tonic] (https://github.com/TAWTonic)</b>.<br/>
-This contains primarily the release contain and on-going development changes to the mission.<br/>
+<b>Altis Life</b> or <b>[Altis Life RPG] (http://www.altisliferpg.com)</b> was created and mainly developed by <b>Tonic</b> AKA <b>[TAW_Tonic] (https://github.com/TAWTonic)</b>.<br/>
+Altis Life is currently being maintained by [Arma Life RPG] (https://github.com/ArmaLife).<br/>
 <br/>
-Altis Life RPG by Tonic is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License] (http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US)<br/>
 By using the framework and/or code inside the framework, you agree to the [terms of agreement] (README.md/#usage--terms-of-agreement).<br/>
 The terms are subjected to be changed over time.<br/>
 
-[How to configure your server] (https://github.com/ArmaLife/Altis/wiki/Setup-Server)
+[How to configure your server] (https://github.com/ArmaLife/Framework/wiki/Setup-Server)
 -------------------------------------
-You can found all the steps to have a fully working server in our [github wiki] (https://github.com/ArmaLife/Altis/wiki).
+You can found all the steps to have a fully working server in our [github wiki] (https://github.com/ArmaLife/Framework/wiki).
 
 Disclaimer
 -----------
@@ -47,7 +62,7 @@ Usage / Terms of agreement
 ---------------------------
 >   The branding of the mission is to stay ‘Altis Life RPG’. This means you cannot modify it to say something else. i.e Atlis Life by YOURCOMMUNITYNAME/TAG. Everything about the naming / branding is to be left untouched.
 
->   Naturally all credit is to remain intact on all files. Author cannot be modified via Description.ext but can be extended in briefing.sqf
+>   Naturally all credit is to remain intact on all files. Author cannot be modified via Description.ext / Mission.sqm, but can be extended in briefing.sqf
 
 >   All of my code is not to be used outside of the mission in another ‘Life’ like mission. It is to stay the Altis Life RPG Framework / my framework or you don’t use it and direct branding.
 
