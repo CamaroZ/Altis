@@ -1053,7 +1053,7 @@
             <German>Du hast nicht genug Geld auf deinem Konto, es kostet $%2, um $%1 zu überweisen.</German>
             <French>Vous n'avez pas assez d'agent dans votre compte bancaire, pour transférer $%1 vous devez payer $%2 de taxe</French>
             <Italian>Non hai fondi sufficienti nel tuo conto in banca, per trasferire $%1 necessiti di $%2 per pagare la tassa di trasferimento.</Italian>
-            <Portuguese>Você não tem dinheiro suficiente na suca conta bancária. Para trasferir R$%1 você irá pagar R$%2 de taxa</Portuguese>
+            <Portuguese>Você não tem dinheiro suficiente na sua conta bancária. Para trasferir R$%1 você irá pagar R$%2 de taxa</Portuguese>
             <Polish>Nie masz wystarczająco dużo środków na końcie, do przelewu $%1 będziesz potrzebował jeszcze $%2 na opłatę</Polish>
         </Key>
         <Key ID="STR_ATM_SentMoneySuccess">
